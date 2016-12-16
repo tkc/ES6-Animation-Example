@@ -1,0 +1,121 @@
+body {
+  padding: 0px;
+  background: black; }
+
+.hiddenItem {
+  display: none; }
+
+#wall {
+  background: url(../images/1.jpg);
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: 50% 50%; }
+
+#overWall {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 9999;
+  background: #000;
+  opacity: 1; }
+  #overWall .overWallLineTop {
+    position: absolute;
+    height: 2px;
+    content: '';
+    background: #2fe53c;
+    top: 0;
+    left: 0;
+    width: 0;
+    -webkit-transition: 20s ease-in-out;
+    transition: 2s ease-in-out; }
+  #overWall .overWallLineButton {
+    position: absolute;
+    height: 2px;
+    content: '';
+    background: #2fe53c;
+    bottom: 0px;
+    right: 0;
+    z-index: 999;
+    width: 0;
+    -webkit-transition: 20s ease-in-out;
+    transition: 2s ease-in-out; }
+
+#wall {
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+  width: 100%; }
+  #wall .wall--img {
+    width: 100%;
+    margin: auto;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 2s ease-in-out; }
+  #wall .wall--img-effect {
+    -webkit-transform: scale(1.4);
+    transform: scale(1.4);
+    -webkit-transition: 20s ease-in-out;
+    transition: 20s ease-in-out; }
+  #wall .wall--img-effect--end {
+    -webkit-transform: scale(2);
+    transform: scale(2);
+    -webkit-transition: 3s ease-in-out;
+    transition: 3s ease-in-out; }
+  #wall .wall--text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 520px;
+    max-width: 520px;
+    height: 450px;
+    padding: 50px 0px; }
+    #wall .wall--text li {
+      float: right;
+      background: rgba(156, 156, 111, 0.4);
+      height: 100%;
+      width: 50px;
+      margin: 0px 10px;
+      list-style-type: none;
+      padding: 0px;
+      border: solid 1px rgba(255, 255, 255, 0.48); }
+
+.wall--text-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 520px;
+  max-width: 520px;
+  height: 450px;
+  padding: 50px 0px; }
+  .wall--text-wrapper #lineTop {
+    position: absolute;
+    height: 2px;
+    content: '';
+    background: #2fe53c;
+    top: 0;
+    left: 0;
+    width: 0;
+    -webkit-transition: 3s ease-in-out;
+    transition: 3s ease-in-out; }
+  .wall--text-wrapper #lineButton {
+    position: absolute;
+    height: 2px;
+    content: '';
+    background: #2fe53c;
+    bottom: 0px;
+    right: 0;
+    z-index: 999;
+    width: 0;
+    -webkit-transition: 3s ease-in-out;
+    transition: 3s ease-in-out; }
+
+.nextPage h1 {
+  color: #fff;
+  text-align: center; }
