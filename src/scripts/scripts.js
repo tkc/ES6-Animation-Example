@@ -48,46 +48,46 @@ const script = () => {
     return true;
   }
 
-  if (sec > 2000) {
+  if (sec == 2000) {
     Elements.overWall.classList.add(Actions.cssFadeOut);
   }
 
-  if (sec > 5000) {
+  if (sec == 5000) {
     Elements.wallTextItem1.classList.remove(Actions.cssHiddenName);
     Elements.wallTextItem1.classList.add(Actions.cssFadeIn);
   }
 
-  if (sec > 6000) {
+  if (sec == 6000) {
     Elements.wallTextItem2.classList.remove(Actions.cssHiddenName);
     Elements.wallTextItem2.classList.add(Actions.cssFadeIn);
   }
 
-  if (sec > 7000) {
+  if (sec == 7000) {
     Elements.wallTextItem3.classList.remove(Actions.cssHiddenName);
     Elements.wallTextItem3.classList.add(Actions.cssFadeIn);
   }
 
-  if (sec > 8000) {
+  if (sec == 8000) {
     Elements.wallTextItem4.classList.remove(Actions.cssHiddenName);
     Elements.wallTextItem4.classList.add(Actions.cssFadeIn);
   }
 
-  if (sec > 9000) {
+  if (sec == 9000) {
     Elements.wallTextItem5.classList.remove(Actions.cssHiddenName);
     Elements.wallTextItem5.classList.add(Actions.cssFadeIn);
   }
 
-  if (sec > 10000) {
+  if (sec == 10000) {
     Elements.wallTextItem6.classList.remove(Actions.cssHiddenName);
     Elements.wallTextItem6.classList.add(Actions.cssFadeIn);
   }
 
-  if (sec > 11000) {
+  if (sec == 11000) {
     Elements.wallTextItem7.classList.remove(Actions.cssHiddenName);
     Elements.wallTextItem7.classList.add(Actions.cssFadeIn);
   }
 
-  if (sec > 11500) {
+  if (sec == 11500) {
     Elements.wallTextLineTop.setAttribute("style",
       `width:` + 520 + ';' +
       `height:` + 1
@@ -98,7 +98,7 @@ const script = () => {
     );
   }
 
-  if (sec > 18000) {
+  if (sec == 18000) {
     Actions.changeWallBackGroundImage(Elements.wallImage2);
   }
 
